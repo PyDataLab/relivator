@@ -15,7 +15,7 @@ import {
   CardHeader,
   CardTitle,
 } from "~/ui/primitives/card";
-import { Skeleton } from "~/ui/primitives/skeleton";
+import Skeleton from "~/ui/primitives/skeleton";
 
 interface DashboardPageClientProps {
   user?: null | User;

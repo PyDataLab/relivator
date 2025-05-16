@@ -12,7 +12,7 @@ import { BentoMediaGallery } from "~/ui/components/blocks/bento-media-gallery";
 import { Alert, AlertDescription, AlertTitle } from "~/ui/primitives/alert";
 import { Button } from "~/ui/primitives/button";
 import { Input } from "~/ui/primitives/input";
-import { Skeleton } from "~/ui/primitives/skeleton";
+import Skeleton from "~/ui/primitives/skeleton";
 
 export default function UploadsPageClient() {
   const [mediaGalleryItems, setMediaGalleryItems] = useState<

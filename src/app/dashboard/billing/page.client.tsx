@@ -10,7 +10,7 @@ import { PaymentForm } from "~/ui/components/payments/PaymentForm";
 import { Button } from "~/ui/primitives/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "~/ui/primitives/card";
 import { Alert, AlertDescription, AlertTitle } from "~/ui/primitives/alert";
-import { Skeleton } from "~/ui/primitives/skeleton";
+import Skeleton from "~/ui/primitives/skeleton";
 import { Badge } from "~/ui/primitives/badge";
 
 interface SubscriptionsResponse {
