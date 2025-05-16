@@ -6,7 +6,7 @@ import { signOut } from "~/lib/auth-client";
 import { cn } from "~/lib/cn";
 import { useMounted } from "~/lib/hooks/use-mounted";
 import { Button, buttonVariants } from "~/ui/primitives/button";
-import { Skeleton } from "~/ui/primitives/skeleton";
+import Skeleton from "~/ui/primitives/skeleton";
 
 export function SignOutPageClient() {
   const router = useRouter();
