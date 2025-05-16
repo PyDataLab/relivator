@@ -1,9 +1,17 @@
 "use client";
 
 import React from "react";
+import { cn } from "~/lib/cn";
 
-const Skeleton = () => {
-  return <div className="animate-pulse rounded-md bg-accent h-6 w-20" />;
+interface SkeletonProps extends React.HTMLAttributes<HTMLDivElement> {}
+
+const Skeleton: React.FC<SkeletonProps> = ({ className, ...props }) => {
+  return (
+    <div
+      className={cn("animate-pulse rounded-md bg-accent", className)}
+      {...props}
+    />
+  );
 };
 
 export default Skeleton;
