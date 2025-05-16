@@ -48,11 +48,10 @@ export function SignOutPageClient() {
         <Skeleton
           className={cn(
             buttonVariants({ size: "default", variant: "secondary" }),
-            "bg-muted text-muted-foreground",
+            "bg-muted text-muted-foreground text-center",
           )}
-        >
-          Log out
-        </Skeleton>
+        />
+
       )}
     </div>
   );
